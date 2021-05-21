@@ -1,7 +1,7 @@
 import pytest
 import leap_year
 
-class TestPalindrome:
+class TestLeapYear:
     def test_simple(self):
         assert leap_year.isLeapYear(4) == "4 is a leap year!"
         assert leap_year.isLeapYear(100) == "100 is not a leap year!"
